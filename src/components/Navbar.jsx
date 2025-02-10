@@ -45,7 +45,7 @@ export default function Navbar() {
                 setDarkMode(!darkMode);
                 setTheme(darkMode ? "light" : "dark");
             }}
-            className="w-22 h-11 flex items-center bg-gray-300 dark:bg-gray-10 rounded-full p-1 transition-all"
+            className="w-22 h-11 flex items-center bg-gray-300 dark:bg-gray-10 rounded-2xl p-1 transition-all"
             >
             <div
                 className={`w-8 h-8 rounded-full shadow-md transform duration-300 ${darkMode ? "bg-white translate-x-11" : "bg-[#19213D] translate-x-0"}`}
