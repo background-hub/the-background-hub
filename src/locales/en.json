@@ -1,6 +1,22 @@
 {
-  "home": "Home",
-  "about": "About Us",
+  "home": {
+    "title": "Home",
+    "title_h2": "Behind the scenes of your success.",
+    "description": "Customer support, we are behind what will be your success, support, ensuring your success through your connections. Specialized service in consulting, regulation and private-public sector relations.",
+    "button": "Contact"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Background Hub is the result of a union of consultants with over two decades of experience in the public and private sectors.  With complementary academic backgrounds and diverse professional trajectories, our specialists work in large organizations, ranging from multinational companies to governmental entities.",
+    "approachTitle": "Our Approach",
+    "approachDescription": "Our collaborative approach allows us to offer integrated solutions, encompassing technical, regulatory, legal, and political aspects, always aligned with our clients' strategic needs.",
+    "reachTitle": "Scope",
+    "reachDescription": "Professionals with diverse backgrounds and experiences work together seamlessly in the execution of projects.",
+    "experienceTitle": "Experience",
+    "experienceDescription": "Consultants with over 20 years of experience, with backgrounds in both the public and private sectors and an extensive network of contacts.",
+    "dynamismTitle": "Dynamism",
+    "dynamismDescription": "A functional network structure, formed by leading market experts, mobilized according to the specific demands of each client."
+  },
   "services": "Services",
   "contact": "Contact"
 }

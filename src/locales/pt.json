@@ -1,6 +1,22 @@
 {
-  "home": "Início",
-  "about": "Sobre Nós",
+  "home": {
+    "title": "Home",
+    "title_h2": "Nos bastidores do seu sucesso",
+    "description": "Suporte ao cliente, estamos por trás daquilo que será seu sucesso, suporte, garantindo seu sucesso por meio de suas conexões. Serviço especializado em consultoria, regulação e relacionamento setor privado-público.",
+    "button": "Contato"
+  },
+  "about": {
+    "title": "Sobre nós",
+    "description": "O Background Hub nasce da união de um grupo de consultores com mais de duas décadas de experiência nos setores público e privado. Com formações acadêmicas complementares e trajetórias profissionais diversificadas, nossos especialistas atuam em grandes organizações, que vão desde empresas multinacionais até entidades governamentais.",
+    "approachTitle": "Nossa Abordagem",
+    "approachDescription": "Nossa abordagem colaborativa permite oferecer soluções integradas, abrangendo aspectos técnicos, regulatórios, jurídicos e políticos, sempre alinhadas às necessidades estratégicas de nossos clientes.",
+    "reachTitle": "Abrangência",
+    "reachDescription": "Profissionais com diferentes formações e vivências atuam de maneira integrada na condução dos projetos.",
+    "experienceTitle": "Experiência",
+    "experienceDescription": "Consultores com mais de 20 anos de atuação, com passagens pelo setor público e privado e uma ampla rede de relacionamentos.",
+    "dynamismTitle": "Dinamismo",
+    "dynamismDescription": "Estrutura funcional em rede, formada por especialistas de referência no mercado, mobilizados conforme a demanda específica de cada cliente."
+  },
   "services": "Serviços",
   "contact": "Contato"
 }

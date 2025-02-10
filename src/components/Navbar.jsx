@@ -31,8 +31,8 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         {/* Menu */}
         <div className="flex space-x-6 text-gray-800 dark:text-white text-2xl gap-6">
-          <a className="font-semibold" href="#">{t("home")}</a>
-          <a className="font-semibold" href="#">{t("about")}</a>
+          <a className="font-semibold" href="#">{t("home.title")}</a>
+          <a className="font-semibold" href="#">{t("about.title")}</a>
           <a className="font-semibold" href="#">{t("services")}</a>
           <a className="font-semibold" href="#">{t("contact")}</a>
         </div>
@@ -80,7 +80,7 @@ export default function Navbar() {
           {/* Botão de linguagem */}
           <button
             onClick={() => changeLanguage(i18n.language === "pt" ? "en" : "pt")}
-            className="px-4 py-1 bg-white dark:bg-gray-700 text-gray-800 dark:text-white font-semibold-lang rounded-md shadow-md text-2xl"
+            className="px-4 py-1 bg-gray-700 font-semibold-lang rounded-md shadow-md text-2xl"
           >
             {i18n.language === "pt" ? "ENGLISH" : "PORTUGUÊS"}
           </button>
