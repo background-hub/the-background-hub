@@ -1,24 +1,19 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-* {
-    font-family: "Raleway", serif;
-    font-optical-sizing: auto;
-}
 
 /* Variáveis para o modo claro */
 :root {
     --bg-color: #ffffff;
     --text-color: #333333;
     --primary-color: #3498db;
+    --btn-linguage: #7B7B7B;
 }
 
 /* Variáveis para o modo escuro */
 .dark {
-    --bg-color: #1a202c;
+    --bg-color: #19213D;
     --text-color: #ffffff;
     --primary-color: #9b59b6;
+    --btn-linguage: #19213D;
 }
 
 /* Estilos gerais */
@@ -37,4 +32,8 @@ body {
 .font-semibold {
     font-weight: 600;
     color: var(--text-color);
+}
+
+.title-home, .link-home{
+    color: white ;
 }
