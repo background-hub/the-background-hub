@@ -2,25 +2,47 @@
 
 /* Variáveis para o modo claro */
 :root {
-    --bg-color: #ffffff;
-    --text-color: #333333;
-    --primary-color: #3498db;
-    --btn-linguage: #7B7B7B;
+    --bg-color:                 #ffffff;
+    --text-title:               #4d4d4d;
+    --text-color:               #717171;
+    --primary-color:            #3498db;
+    --btn-linguage:             #f1f0f0;
+    --text-color-boxs:          #0353a4;
+    --btn-geral:                #0353a4;
 }
 
 /* Variáveis para o modo escuro */
 .dark {
-    --bg-color: #19213D;
-    --text-color: #ffffff;
-    --primary-color: #9b59b6;
-    --btn-linguage: #19213D;
+    --bg-color:                 #19213D;
+    --text-title:               #f0f0f0;
+    --text-color:               #ffffff;
+    --primary-color:            #9b59b6;
+    --btn-linguage:             #364153;
+    --text-color-boxs:          #0353a4;
+    --btn-geral:                #0353a4;
 }
+
+html {
+    scroll-behavior: smooth;
+}  
 
 /* Estilos gerais */
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-title);
+}
+
+p{
+    color: var(--text-color);
+}
+
+.title-boxs{
+    color: var(--text-color-boxs);
 }
 
 .navbar {
@@ -35,5 +57,18 @@ body {
 }
 
 .title-home, .link-home{
-    color: white ;
+    color: #f0f0f0;
+}
+
+button{
+    background-color: var(--btn-linguage);
+}
+
+.link-home{
+    background-color: var(--btn-geral);
+    color: var(--text-color);
+}
+
+.btn_nav{
+    background-color: transparent;
 }
