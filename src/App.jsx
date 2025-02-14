@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/about';
+import Contact from './components/contact';
 import Home from './components/home';
 import Navbar from "./components/Navbar";
 import Servicos from './components/services';
@@ -13,6 +14,7 @@ function App() {
         <Home />
         <About /> 
         <Servicos />
+        <Contact />
       </ThemeProvider>
     </div>
   );

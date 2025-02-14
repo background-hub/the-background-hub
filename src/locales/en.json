@@ -25,5 +25,8 @@
     "support": "Specialized Support",
     "support_txt": "Development and execution of regulatory strategy in diverse markets; Support for the implementation of public-private partnerships; Implementation of risk management, governance and compliance mechanisms."
   },
-  "contact": "Contact"
+  "contact": {
+    "title": "Contact",
+    "description": "Get in touch and share your business challenges with us. We are ready to offer strategic and personalized solutions"
+  }
 }
