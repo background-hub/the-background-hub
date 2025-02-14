@@ -10,6 +10,8 @@
     --text-color-boxs: #0353a4;
     --btn-geral: #0353a4;
     --bcgk-1: #f5f7fa;
+    --tetx-color-1:#ffffff;
+    --background-color-footer: #263238;
 }
 
 /* Variáveis para o modo escuro */
@@ -22,6 +24,8 @@
     --text-color-boxs: #0353a4;
     --btn-geral: #0353a4;
     --bcgk-1: #141e35;
+    --tetx-color-1:#ffffff;
+    --background-color-footer: #141e35;
 }
 
 html {
@@ -86,7 +90,11 @@ button {
 }
 
 .footer{
-    color: var(--bg-color);
+    color: var(--tetx-color-1);
+}
+
+.bckg-footer{
+    background-color: var(--background-color-footer);
 }
 
 .messageBox {

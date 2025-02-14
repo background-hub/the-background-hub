@@ -28,5 +28,11 @@
   "contact": {
     "title": "Contact",
     "description": "Get in touch and share your business challenges with us. We are ready to offer strategic and personalized solutions"
+  },
+  "footer":{
+    "title": "The Background Hub",
+    "date": "2024",
+    "direitos": "All rights reserved",
+    "placeholder": "Enter your email..."
   }
 }

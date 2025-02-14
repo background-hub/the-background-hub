@@ -28,5 +28,12 @@
   "contact": {
     "title": "Contato",
     "description": "Entre em contato e compartilhe conosco os desafios do seu negócio. Estamos prontos para oferecer soluções estratégicas e personalizadas."
+  },
+
+  "footer":{
+    "title": "The Background Hub",
+    "date": "2024",
+    "direitos": "Todos os direitos reservados",
+    "placeholder": "Digite seu e-mail..."
   }
 }
