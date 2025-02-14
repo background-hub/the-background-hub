@@ -67,7 +67,7 @@ export default function Navbar() {
             {t("services.title")}
           </button>
           <button className="font-semibold btn_nav" onClick={() => scrollToSection("contact")}>
-            {t("contact")}
+            {t("contact.title")}
           </button>
         </div>
       </div>
