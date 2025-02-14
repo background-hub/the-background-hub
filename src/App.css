@@ -9,6 +9,7 @@
     --btn-linguage:             #f1f0f0;
     --text-color-boxs:          #0353a4;
     --btn-geral:                #0353a4;
+    --bcgk-1:                   #f5f7fa;
 }
 
 /* Variáveis para o modo escuro */
@@ -20,6 +21,7 @@
     --btn-linguage:             #364153;
     --text-color-boxs:          #0353a4;
     --btn-geral:                #0353a4;
+    --bcgk-1:                   #141e35;
 }
 
 html {
@@ -71,4 +73,8 @@ button{
 
 .btn_nav{
     background-color: transparent;
+}
+
+.background-service{
+    background-color: var(--bcgk-1);
 }
