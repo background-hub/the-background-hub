@@ -1,20 +1,21 @@
 import { useState, useEffect } from "react";
-import { useThemeContext } from "../context/ThemeContext";  // Usando o contexto de tema
+import { useThemeContext } from "../context/ThemeContext";
 import { useTranslation } from "react-i18next";
+import logo from "../assets/logo.svg";
 import i18n from "../i18n";
 
 export default function Navbar() {
-  const { theme, setTheme } = useThemeContext();  // Acessando theme e setTheme do contexto
+  const { theme, setTheme } = useThemeContext();
   const [darkMode, setDarkMode] = useState(theme === "dark");
   const { t } = useTranslation();
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (!section) return;
   
-    const targetPosition = section.offsetTop; // Posição do elemento
-    const startPosition = window.scrollY; // Posição atual
+    const targetPosition = section.offsetTop; 
+    const startPosition = window.scrollY;
     const distance = targetPosition - startPosition;
-    const duration = 800; // Duração da animação (ms)
+    const duration = 800; 
     let startTime = null;
   
     const easeInOutQuad = (t, b, c, d) => {
@@ -44,11 +45,8 @@ export default function Navbar() {
   }, [darkMode]);
 
   useEffect(() => {
-    // Atualiza o estado de darkMode com base no theme do contexto
     setDarkMode(theme === "dark");
   }, [theme]);
-
-  // Alternar idioma
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
   };
@@ -56,10 +54,9 @@ export default function Navbar() {
   return (
     <nav className="navbar p-4 h-27 flex flex-nowrap justify-center items-center flex-row">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Menu */}
         <div className="container mx-auto flex justify-between items-center">
-        {/* Menu */}
         <div className="flex space-x-6 text-gray-800 dark:text-white text-2xl gap-6">
+          <button className="font-semibold btn_nav"><img src={logo} alt="Logo" className="w-32 h-auto" /></button>
           <button className="font-semibold btn_nav" onClick={() => scrollToSection("home")}>
             {t("home.title")}
           </button>
@@ -67,15 +64,13 @@ export default function Navbar() {
             {t("about.title")}
           </button>
           <button className="font-semibold btn_nav " onClick={() => scrollToSection("services")}>
-            {t("services")}
+            {t("services.title")}
           </button>
           <button className="font-semibold btn_nav" onClick={() => scrollToSection("contact")}>
             {t("contact")}
           </button>
         </div>
       </div>
-
-        {/* Controles */}
         <div className="flex items-center space-x-4">
           {/* Toggle Dark Mode */}
           <button
@@ -113,9 +108,6 @@ export default function Navbar() {
                 </svg>
             </div>
             </button>
-
-
-          {/* Botão de linguagem */}
           <button
             onClick={() => changeLanguage(i18n.language === "pt" ? "en" : "pt")}
             className="px-4 py-1 bg-gray-700 font-semibold-lang rounded-md shadow-md text-2xl"

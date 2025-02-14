@@ -17,6 +17,13 @@
     "dynamismTitle": "Dynamism",
     "dynamismDescription": "A functional network structure, formed by leading market experts, mobilized according to the specific demands of each client."
   },
-  "services": "Services",
+  "services": {
+    "title": "Services",
+    "description": "The Background Hub serves as a connection point for highly qualified specialists who are called upon on demand to fulfill specific contracts. Our permanent team establishes a strategic dialogue with clients to understand their needs, define the services that add value to their business and mobilize the network of associated consultants.",
+    "consultancy": "Consultancy",
+    "consultancy_txt": "Production of technical and legal opinions; Specialized expert analyses in various sectors; Data analysis to support decision-making; On-demand training with experts from various areas.",
+    "support": "Specialized Support",
+    "support_txt": "Development and execution of regulatory strategy in diverse markets; Support for the implementation of public-private partnerships; Implementation of risk management, governance and compliance mechanisms."
+  },
   "contact": "Contact"
 }
