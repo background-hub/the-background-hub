@@ -12,20 +12,24 @@
     --bcgk-1: #f5f7fa;
     --tetx-color-1:#ffffff;
     --background-color-footer: #263238;
+    --navbar-color: #ffffff;
+    --text-color-btn: #717171;
 }
 
 /* Variáveis para o modo escuro */
 .dark {
-    --bg-color: #19213D;
+    --bg-color: #343434;
     --text-title: #f0f0f0;
     --text-color: #ffffff;
     --primary-color: #9b59b6;
-    --btn-linguage: #364153;
+    --btn-linguage: #F5F7FA;
     --text-color-boxs: #0353a4;
     --btn-geral: #0353a4;
     --bcgk-1: #141e35;
     --tetx-color-1:#ffffff;
-    --background-color-footer: #141e35;
+    --background-color-footer: #2a2a2a;
+    --navbar-color: #0a0a0a;
+    --text-color-btn: #202020;
 }
 
 html {
@@ -57,7 +61,7 @@ p {
 }
 
 .navbar {
-    background-color: var(--bg-color);
+    background-color: var(--navbar-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
 }
@@ -74,6 +78,7 @@ p {
 
 button {
     background-color: var(--btn-linguage);
+    color: var(--text-color-btn);
 }
 
 .link-home {
@@ -86,7 +91,7 @@ button {
 }
 
 .background-service {
-    background-color: var(--bcgk-1);
+    background-color: var(--background-color-footer);
 }
 
 .footer{

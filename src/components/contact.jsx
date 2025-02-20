@@ -16,7 +16,7 @@ export default function Contact() {
           href="mailto:seuemail@exemplo.com"
           className="w-48 h-24 bg-[#0353a4] text-white text-2xl font-bold title-home rounded-md shadow-md flex items-center justify-center flex-nowrap flex-row"
         >
-         e-mail
+         contato
         </a>
       </div>
     </section>
