@@ -23,7 +23,7 @@ export default function About() {
         </p>
       </div>
       <div className="flex flex-col md:flex-row justify-center gap-6">
-        <div className="p-6 text-center rounded-lg w-[50rem] shadow-[2px_8px_20px_0px_#dbdada87]">
+        <div className="p-6 text-center rounded-lg w-[50rem] shadow-[2px_8px_20px_0px_#dbdada87] blocks">
           <h3 className="text-4xl font-bold text-[#2388FF] title-boxs mb-12">
             {t("about.reachTitle")}
           </h3>
@@ -31,7 +31,7 @@ export default function About() {
             {t("about.reachDescription")}
           </p>
         </div>
-        <div className="p-6 text-center rounded-lg w-[50rem] shadow-[2px_8px_20px_0px_#dbdada87]">
+        <div className="p-6 text-center rounded-lg w-[50rem] shadow-[2px_8px_20px_0px_#dbdada87] blocks">
           <h3 className="text-4xl font-bold text-[#2388FF] title-boxs mb-12">
             {t("about.experienceTitle")}
           </h3>
@@ -39,7 +39,7 @@ export default function About() {
             {t("about.experienceDescription")}
           </p>
         </div>
-        <div className="p-6 text-center rounded-lg w-[50rem] shadow-[2px_8px_20px_0px_#dbdada87]">
+        <div className="p-6 text-center rounded-lg w-[50rem] shadow-[2px_8px_20px_0px_#dbdada87] blocks">
           <h3 className="text-4xl font-bold text-[#2388FF] title-boxs mb-12">
             {t("about.dynamismTitle")}
           </h3>

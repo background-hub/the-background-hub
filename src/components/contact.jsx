@@ -13,7 +13,7 @@ export default function Contact() {
         <p className="text-lg text-gray-700 dark:text-gray-300">{t("contact.description")}
         </p>
         <a
-          href="mailto:seuemail@exemplo.com"
+          href="mailto:artur.lascala@background-hub.com,diego.benedetti@background-hub.com?subject=Contato&body=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços."
           className="w-48 h-24 bg-[#0353a4] text-white text-2xl font-bold title-home rounded-md shadow-md flex items-center justify-center flex-nowrap flex-row"
         >
          contato
