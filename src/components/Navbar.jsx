@@ -56,17 +56,17 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="navbar p-4 h-27 flex justify-between items-center">
+    <nav className="navbar p-4 h-27 flex justify-between items-center z-[10]">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <button className="font-semibold btn_nav">
+        <button className="font-semibold btn_nav z-[51]">
           <img src={logo} alt="Logo" className="w-32 h-auto" />
         </button>
 
         {/* Botão Hamburguer (Somente Mobile) */}
         <button
           className="lg:hidden text-gray-800 dark:text-white text-3xl z-[10] bg-transparent 
-  p-2 rounded-lg transition-all hover:bg-gray-200 dark:hover:bg-gray-700"
+            p-2 rounded-lg transition-all hover:bg-gray-200 dark:hover:bg-gray-700"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? (
@@ -104,10 +104,10 @@ export default function Navbar() {
 
         {/* Menu de Navegação */}
         <div
-          className={`lg:flex flex-col lg:flex-row lg:space-x-6 text-gray-800 dark:text-white text-2xl gap-6 
+          className={`lg:flex flex-col lg:flex-row lg:space-x-6 text-gray-800 dark:text-white text-2xl gap-6  
           ${
             menuOpen
-              ? "flex flex-col absolute top-20 left-0 w-full  shadow-md p-5"
+              ? "flex flex-col absolute top-20 left-0 w-full  shadow-md p-5 z-[50] navbar"
               : "hidden lg:flex"
           }`}
         >
