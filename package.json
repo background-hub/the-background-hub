@@ -1,6 +1,6 @@
 {
   "homepage": "background-hub.com",
-  "name": "background-hub",
+  "name": "the-background-hub",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.5",
+    "@vitejs/plugin-react": "^4.3.4",
     "i18next": "^24.2.2",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
