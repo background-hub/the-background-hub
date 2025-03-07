@@ -116,21 +116,6 @@ button {
     background-color: var(--background-color-footer);
 }
 
-.messageBox {
-    width: fit-content;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--mensagembox);
-    padding: 0 15px;
-    border-radius: 10px;
-    border: 1px solid rgb(63, 63, 63);
-}
-
-.messageBox:focus-within {
-    border: 1px solid rgb(110, 110, 110);
-}
 
 #messageInput {
     width: 200px;
@@ -156,4 +141,12 @@ button {
 #sendButton:hover svg path {
     fill: #3c3c3c;
     stroke: white;
+}
+
+.btn-contact{
+    background-color: #0353a4 !important;
+}
+
+.texto-contato{
+    color: #ffffff !important;
 }
