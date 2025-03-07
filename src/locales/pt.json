@@ -27,7 +27,19 @@
   },
   "contact": {
     "title": "Contato",
-    "description": "Entre em contato e compartilhe conosco os desafios do seu negócio. Estamos prontos para oferecer soluções estratégicas e personalizadas."
+    "description": "Entre em contato e compartilhe conosco os desafios do seu negócio. Estamos prontos para oferecer soluções estratégicas e personalizadas.",
+    "open": "Contato",
+    "close": "Fechar",
+    "formTitle": "Entre em contato conosco",
+    "name": "Nome",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "message": "Mensagem",
+    "send": "Enviar",
+    "namePlaceholder": "Digite seu nome...",
+    "emailPlaceholder": "Digite seu e-mail...",
+    "phonePlaceholder": "Digite seu telefone...",
+    "messagePlaceholder": "Digite sua mensagem..."
   },
 
   "footer":{

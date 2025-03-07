@@ -27,9 +27,21 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "Get in touch and share your business challenges with us. We are ready to offer strategic and personalized solutions"
+    "description": "Get in touch and share your business challenges with us. We are ready to offer strategic and personalized solutions",
+    "open": "Contact",
+    "close": "Close",
+    "formTitle": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send",
+    "namePlaceholder": "Enter your name...",
+    "emailPlaceholder": "Enter your email...",
+    "phonePlaceholder": "Enter your phone...",
+    "messagePlaceholder": "Enter your message..."
   },
-  "footer":{
+  "footer": {
     "title": "The Background Hub",
     "date": "2024",
     "direitos": "All rights reserved",
